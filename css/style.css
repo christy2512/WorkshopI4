@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #00008F;
+	background-image: #00008F;
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -583,21 +583,31 @@ header {
     background-color: #00008F;
 }
 
-header ul {
+header ul#menuu {
     margin: 0 auto;
     padding: 0;
     width: 890px;
     display: flex;
 }
 
-header ul li{
+header ul#menuu > li{
     display: inline-block;
     padding: 20px;
-    color: white;
     font-weight: bold;
+    color: white;
+}
+
+header ul#menuu > li a{
+    color: white;
 }
 
 form#form input{
     padding: 14px 34px; border-radius: 50px;
     width: 400px; border: 1px solid blue;margin-bottom: 10px;
 }
+
+ul#menuu > li {
+    display: inline-block;
+    position: relative;
+}
+
